@@ -1,0 +1,79 @@
+#bio-description {
+    position: relative;
+}
+
+#my-bio, #my-wife-bio, #my-family-bio {
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+#first-parag {
+    position: absolute;
+    top: 60px;
+}
+
+#second-parag{
+    background-color: silver;
+    height: 80px;
+    text-align: center;
+}
+
+.menu {
+    background-color: burlywood;
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#my-first-header {
+    position: relative;
+    padding-top: 20px;
+    margin-top: 20px;
+    background-color: cadetblue;
+    height: 40px;
+}
+
+#last-menu {
+    position: absolute;
+    right: 50%;
+    bottom: 2px;
+}
+
+footer {
+    text-align: center;
+
+}
+nav {
+    position: relative;
+    top: 150px;
+    border: 1px solid ;
+    width: 100px;
+    height: 90px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#pictures-2 {
+    float: right;
+    width: 40%;
+}
+
+#obama, #picnic {
+    border: 12px solid green;
+    border-radius: 50%;
+    width: 300px;
+}
+
+#pictures-1 {
+    float: left;
+    width: 40%;
+    margin: auto;
+}
+
+/**
+    DRY: DON'T REPEAT YOURSELF
+*/
